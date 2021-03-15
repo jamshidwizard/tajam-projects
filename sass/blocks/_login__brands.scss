@@ -1,0 +1,26 @@
+@media (max-width:560px){
+    .login__brends{
+        display: none;
+    }
+}
+//devices
+@media (min-width:1200px){
+    .login__brends{
+        max-width: 40%;
+        margin-right: 50px;
+    }
+    .login__brends-header{
+        max-width:90%;
+        text-align: center;
+        margin: 5px auto;
+        color:#344245;
+        font-size: 20px;
+        font-family:"PlayfairDisplay","Arial", sans-serif;
+    }
+    .login__brends img{
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        margin: 15px 30px;
+    }
+}

@@ -1,0 +1,70 @@
+@media (max-width:560px){
+    .sitemain-projects{
+        max-width: 100%;
+        background:
+        linear-gradient(
+            to right,
+            rgba(9,5,47,0.87), 
+            rgba(49,29,94,0.87)),
+        url("../img/bg-1.png");
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        opacity: 0.851; ;
+    }
+    .sitemain-projects--container{
+        padding: 20px 10px;
+    }
+    .projects-heading__header{
+        max-width: 90%;
+        margin: 8px auto;
+        font-size: 18px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-family: "PlayfairDisplay","Arial",sans-serif;
+    }
+    .projects-heading__text{
+        max-width: 100%;
+        text-align: center;
+        font-size: 14px; 
+        color:#fff;   
+        font-family: "PlayfairDisplay","Arial",sans-serif;
+    }
+       
+}
+//devices
+@media (min-width:1200px){
+    .sitemain-projects{
+        max-width: 100%;
+        background:
+        linear-gradient(
+            to right,
+            rgba(9,5,47,0.87), 
+            rgba(49,29,94,0.87)),
+        url("../img/bg-1.png");
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        opacity: 0.851; ;
+    }
+    .sitemain-projects--container{
+        padding: 20px 10px;
+    }
+    .projects-heading__header{
+        max-width: 90%;
+        margin: 8px auto;
+        font-size: 20px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-family: "PlayfairDisplay","Arial",sans-serif;
+    }
+    .projects-heading__text{
+        max-width: 100%;
+        text-align: center;
+        font-size: 16px; 
+        color:#fff;   
+        font-family: "PlayfairDisplay","Arial",sans-serif;
+    }
+}

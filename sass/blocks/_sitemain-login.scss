@@ -1,0 +1,90 @@
+@media (max-width:560px){
+    .sitemain-login{
+        max-width:90%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .sitemain-login__header{
+        max-width:90%;
+        text-align: center;
+        margin: 5px auto;
+        color:#344245;
+        font-size: 18px;
+        font-family:"PlayfairDisplay","Arial", sans-serif;
+    }
+    .login__input,.login__commit{
+        border:none;
+        background: none;
+        width:94%;
+        border:1px solid #f5f5f5;
+    }
+    .login__input{
+        margin: 10px auto;
+        padding: 8px 6px;
+    }
+    .login-button{
+        border:none;
+        background: none;
+        outline:none;
+        padding: 6px 8px;
+        float:right;
+        margin: 5px 20px;
+        border:1px solid $primary-color;
+        color:$primary-color;
+        font-family: "HammersmithOne","Arial",sans-serif;
+        font-size: 16px;
+    }
+}
+//devices
+@media (min-width:1200px){
+    .sitemain-login{
+        max-width:80%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 50px;
+        display: flex;
+    }
+    .sitemain-login__header{
+        max-width:90%;
+        text-align: center;
+        margin: 5px auto;
+        color:#344245;
+        font-size: 20px;
+        font-family:"PlayfairDisplay","Arial", sans-serif;
+    }
+    .login_part-1{
+        max-width: 40%;
+    }
+    .login__input,.login__commit{
+        border:none;
+        background: none;
+        width:94%;
+        border:1px solid #f5f5f5;
+    }
+    .login__commit{
+        margin-top: 10px;
+        height: 200px;
+    }
+    .login__input{
+        margin: 12px auto;
+        padding: 8px 6px;
+    }
+    .login-button{
+        border:none;
+        background: none;
+        outline:none;
+        padding: 6px 8px;
+        float:left;
+        margin: 5px 20px;
+        border:1px solid $primary-color;
+        color:$primary-color;
+        font-family: "HammersmithOne","Arial",sans-serif;
+        font-size: 16px;
+    }
+    .login-button:hover{
+        background-color: $primary-color;
+        color:#fff;
+        cursor:pointer;
+    }
+}

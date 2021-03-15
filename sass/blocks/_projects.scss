@@ -1,0 +1,107 @@
+@media (max-width:560px){
+ .projects{
+        padding: 30px 0;
+        max-width: 100%;
+        max-height: 265px;
+        overflow: hidden;
+        position: relative;
+    }
+    .sitemain__project{
+        max-height: 250px;
+        position: relative;
+        width: 179px;
+        margin: 0px auto 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        border:1px solid #fff;
+    }
+    .sitamain__project-img{
+        display: block;
+        margin: 0 auto;
+        width:177px;
+        background-color: #fff;
+    }
+    .sitemain__project-header{
+        max-width: 90%;
+        margin: 5px auto;
+        text-align: center;
+        text-transform: uppercase;
+        color:#fff;
+        font-size: 15px;
+    }
+    .sitemain__project-text{
+        max-width: 90%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 14px;
+        color:#fff;
+    }
+    .project__navigation-left{
+        position: absolute;
+        top: 50%;
+        left: -30px;
+       
+    }
+    .project__navigation-rigth{
+        position: absolute;
+        top: 50%;
+        right: -30px;    
+    }
+}
+
+//devecis
+@media (min-width:1200px){
+    .projects{
+        padding: 30px 0;
+        max-width: 100%;
+        position: relative;
+        display: flex;
+    }
+    .sitemain__project{
+        position: relative;
+        width: 179px;
+        margin: 0px auto 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        border:1px solid #fff;
+    }
+    .project-1 h2{
+        margin: 13px 0;
+    }
+    .project-1 p{
+        padding: 1px 0;    
+    }
+    .sitamain__project-img{
+        display: block;
+        margin: 0 auto;
+        width:177px;
+        background-color: #fff;
+    }
+    .sitemain__project-header{
+        max-width: 90%;
+        margin: 5px auto;
+        text-align: center;
+        text-transform: uppercase;
+        color:#fff;
+        font-size: 15px;
+    }
+    .sitemain__project-text{
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 14px;
+        color:#fff;
+    }
+    .project__navigation-left,.project__navigation-rigth{
+        display: none;
+    }
+}

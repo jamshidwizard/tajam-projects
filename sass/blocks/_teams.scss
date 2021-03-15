@@ -1,0 +1,28 @@
+@media (max-width:560px){
+    .teams{
+        max-width:80%;
+        margin:0 auto;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-none{
+        display: none;
+    }
+}
+//devices
+@media (min-width:1200px){
+    .teams{
+        max-width:300px;
+        margin:0 auto;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-none{
+        display: block;
+    }
+    .img-nan{
+        display: inline-block;
+    }
+}

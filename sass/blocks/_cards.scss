@@ -1,0 +1,102 @@
+@media (max-width:560px){
+    .cards{
+        padding: 30px 0;
+        max-width: 100%;
+        max-height: 260px;
+        overflow: hidden;
+        position: relative;
+    }
+    .sitemain__card{
+        min-height: 260px;
+        position: relative;
+        max-width:80%;
+        padding: 10px;
+        margin: 5px auto 10px;
+        text-align: center;
+    }
+    .sitamain__card-img{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 60px;
+
+    }
+    .sitemain__card-header{
+        max-width: 90%;
+        margin: 5px auto;
+        text-align: center;
+        text-transform: uppercase;
+        color:#344245;
+        font-size: 18px;
+    }
+    .sitemain__card-text{
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 16px;
+    }
+    .card__navigation-left{
+        position: absolute;
+        top: 50%;
+        left: -20px;
+       
+    }
+    .card__navigation-rigth{
+        position: absolute;
+        top: 50%;
+        right: -20px;    
+    }
+}
+
+//devices
+@media (min-width:1200px){
+    .cards{
+        padding: 30px 0;
+        max-width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sitemain__card{
+        position: relative;
+        width: 300px;
+        padding: 10px;
+        margin: 0px auto 0px;
+        text-align: center;
+        border:1px solid transparent;
+    }
+    .sitemain__card:hover{
+        cursor:pointer;
+        border:1px solid #f5f5f5;
+        box-shadow:3px 4px 8px #eee;
+        border-radius: 10px;
+    }
+    .sitamain__card-img{
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+
+    }
+    .sitemain__card-header{
+        max-width: 70%;
+        margin: 5px auto;
+        text-align: center;
+        text-transform: uppercase;
+        color:#344245;
+        font-size: 15px;
+    }
+    .sitemain__card-text{
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .card__navigation-left,.card__navigation-rigth{
+      display:none; 
+    }
+        
+}

@@ -1,0 +1,20 @@
+@media (max-width:560px){
+    .sitenav__search{
+        min-width: 10%;
+        background: none;
+        outline:none;
+        border:none;
+    }
+    .sitenav__search img{
+        display: inline-block;
+        width: 20px;
+    }
+    .sitenav__search:focus~.sitenav__lists{
+        display: block;
+    }
+}
+@media (min-width:1200px){
+    .sitenav__search{
+        display: none;
+    }
+}

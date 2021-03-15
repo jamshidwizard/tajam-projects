@@ -1,0 +1,44 @@
+@media (max-width:560px){
+    .site-header{
+        width: 100%;
+        max-height: 150vh;
+        background:
+        linear-gradient(
+            to right,
+            rgba(9,5,47,0.87), 
+            rgba(49,29,94,0.87)
+            ),
+        url("../img/bg-1.png");
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        opacity: 0.851;      
+    }
+    .sitenav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (min-width:1200px){
+    .site-header{
+        width: 100%;
+        min-height: 80vh;
+        background:
+        linear-gradient(
+            to right,
+            rgba(9,5,47,0.85), 
+            rgba(49,29,94,0.85)
+            ),
+        url("../img/bg-1.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        opacity: 0.851;      
+    }
+    .sitenav{
+        display: flex;
+        align-items: center;
+    }          
+
+}

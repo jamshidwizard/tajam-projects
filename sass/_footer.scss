@@ -1,0 +1,43 @@
+@media (max-width:560px){
+    .footer{
+        width: 100%;
+        min-height: 60vh;
+        background:
+        linear-gradient(
+        to right,
+        rgba(9,5,47,0.87), 
+        rgba(49,29,94,0.87)),
+        
+        url("../img/bg-3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.851;
+        position: relative;
+    }
+}
+//devices
+@media (min-width:1200px){
+    .footer{
+        width: 100%;
+        min-height: 200px;
+        background:
+        linear-gradient(
+        to right,
+        rgba(9,5,47,0.87), 
+        rgba(49,29,94,0.87)),
+        
+        url("../img/bg-3.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.851;
+        position: relative;
+        z-index: 1;
+    }
+    .footer-container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }  
+}

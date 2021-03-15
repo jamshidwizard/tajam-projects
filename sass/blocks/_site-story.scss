@@ -1,0 +1,113 @@
+@media (max-width:560px){
+    .site-story--container{
+        max-width: 90%;
+        margin: 30px auto 0px;    
+    }
+    
+    .site-story img{
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .site-story__header{
+        margin: 20px 0 15px;
+        text-align: center;
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color:#2e1e52;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .site-story__text{
+        max-width: 90%;
+        margin: 0 auto;
+        line-height: 22px;
+        color:#2e1e52;
+        font-size: 16px;
+    }
+    .d-none{
+        display:none;
+    }
+    .site-story__button{
+        width: 100%;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-story__button button{
+        background: none;
+        border:none;
+        outline:none;
+        padding: 6px 8px;
+        border: 1px solid $primary-color;
+        font-family: "HammersmithOne";
+        font-size: 18px;
+        text-align: center;
+        color:$primary-color;
+    }
+    .site-story__button button:hover{
+        background-color: $primary-color;
+        color:#fff;  
+    }
+}
+
+@media (min-width:1200px){
+    .site-story--container{
+        max-width: 90%;
+        margin: 30px auto 0px;   
+        display: flex; 
+    }
+    
+    .site-story img{
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .site-story__header{
+        margin: 20px 0 15px;
+        text-align: center;
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color:#2e1e52;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .site-story__text,.d-none{
+        max-width: 60%;
+        margin: 0 auto;
+        line-height: 22px;
+        color:#2e1e52;
+        font-size: 16px;
+    }
+    
+    .site-story__button{
+        width: 100%;
+        margin: 35px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-story__button button{
+        background: none;
+        border:none;
+        outline:none;
+        padding: 6px 8px;
+        border: 1px solid $primary-color;
+        font-family: "HammersmithOne";
+        font-size: 18px;
+        text-align: center;
+        color:$primary-color;
+    }
+    .site-story__button button:hover{
+        background-color: $primary-color;
+        color:#fff;  
+        cursor:pointer;
+    }
+}
